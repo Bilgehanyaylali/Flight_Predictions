@@ -47,7 +47,11 @@ Price: Ticket price (target variable).
 
 # Project Structure
 
-### data: Contains the dataset file.
-### src: Contains Python scripts for data preprocessing, exploratory data analysis, feature engineering and modeling.
-### README.md: Project documentation.
-### requirements.txt: List of required Python libraries.
+### data:
+Contains the dataset file.
+### src:
+Contains Python scripts for data preprocessing, exploratory data analysis, feature engineering and modeling.
+### README.md:
+Project documentation.
+### requirements.txt:
+List of required Python libraries.
