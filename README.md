@@ -22,27 +22,27 @@ Data was extracted from the Ease My Trip website using the Octoparse scraping to
 # Dataset
 The dataset contains information about flight booking options for travel between India's top 6 metro cities. It includes 300,261 datapoints and 11 features:
 
-Airline: The name of the airline company (categorical, 6 unique airlines).
+**Airline**: The name of the airline company (categorical, 6 unique airlines).
 
-Flight: Information regarding the plane's flight code (categorical).
+**Flight**: Information regarding the plane's flight code (categorical).
 
-Source City: City from which the flight takes off (categorical, 6 unique cities).
+**Source City**: City from which the flight takes off (categorical, 6 unique cities).
 
-Departure Time: Time of departure, grouped into 6 time bins (categorical).
+**Departure Time**: Time of departure, grouped into 6 time bins (categorical).
 
-Stops: Number of stops between source and destination cities (categorical, 3 distinct values).
+**Stops**: Number of stops between source and destination cities (categorical, 3 distinct values).
 
-Arrival Time: Time of arrival, grouped into 6 time bins (categorical).
+**Arrival Time**: Time of arrival, grouped into 6 time bins (categorical).
 
-Destination City: City where the flight lands (categorical, 6 unique cities).
+**Destination City**: City where the flight lands (categorical, 6 unique cities).
 
-Class: Seat class (categorical, 2 distinct values: Business and Economy).
+**Class**: Seat class (categorical, 2 distinct values: Business and Economy).
 
-Duration: Overall travel time between cities in hours (continuous).
+**Duration**: Overall travel time between cities in hours (continuous).
 
-Days Left: Calculated by subtracting the booking date from the trip date (derived feature).
+**Days Left**: Calculated by subtracting the booking date from the trip date (derived feature).
 
-Price: Ticket price (target variable).
+**Price**: Ticket price (target variable).
 
 
 # Project Structure
