@@ -5,25 +5,16 @@ from datetime import date
 from datetime import datetime
 from matplotlib import pyplot as plt
 
-
-from sklearn.neighbors import LocalOutlierFactor
-
-
 from sklearn.preprocessing import RobustScaler
 
-
 from sklearn.metrics import r2_score
-
 
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_validate
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import RandomizedSearchCV
 
-
 from lightgbm import LGBMRegressor
-
-
 
 import warnings
 warnings.filterwarnings("ignore")
