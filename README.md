@@ -1,12 +1,11 @@
 # Flight Booking Analysis
-Introduction
+## Introduction
 
 This project aims to analyze a flight booking dataset obtained from the “Ease My Trip” website and conduct various statistical hypothesis tests to extract meaningful information. The 'Linear Regression' algorithm is used to train the dataset and predict the continuous target variable, ticket price. 'Ease My Trip' is an internet platform for booking flight tickets, used by potential passengers to purchase tickets. A thorough study of the data will aid in the discovery of valuable insights beneficial to passengers.
 
-Research Questions
+## Research Questions
 
 The study aims to answer the following research questions:
-
 Does price vary with Airlines?
 
 How is the price affected when tickets are bought just 1 or 2 days before departure?
