@@ -45,14 +45,9 @@ Days Left: Calculated by subtracting the booking date from the trip date (derive
 Price: Ticket price (target variable).
 
 
-.
-├── data
-│   └── flight_booking_data.csv
-├── notebooks
-│   └── Flight_Booking_Analysis.ipynb
-├── src
-│   ├── data_preprocessing.py
-│   ├── eda.py
-│   └── modeling.py
-├── README.md
-└── requirements.txt
+# Project Structure
+
+### data: Contains the dataset file.
+### src: Contains Python scripts for data preprocessing, exploratory data analysis, feature engineering and modeling.
+### README.md: Project documentation.
+### requirements.txt: List of required Python libraries.
