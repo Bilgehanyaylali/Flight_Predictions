@@ -43,3 +43,16 @@ Duration: Overall travel time between cities in hours (continuous).
 Days Left: Calculated by subtracting the booking date from the trip date (derived feature).
 
 Price: Ticket price (target variable).
+
+
+.
+├── data
+│   └── flight_booking_data.csv
+├── notebooks
+│   └── Flight_Booking_Analysis.ipynb
+├── src
+│   ├── data_preprocessing.py
+│   ├── eda.py
+│   └── modeling.py
+├── README.md
+└── requirements.txt
