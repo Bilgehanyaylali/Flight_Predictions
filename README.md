@@ -5,7 +5,6 @@ This project aims to analyze a flight booking dataset obtained from the “Ease 
 
 ## Research Questions
 
-The study aims to answer the following research questions:
 Does price vary with Airlines?
 
 How is the price affected when tickets are bought just 1 or 2 days before departure?
@@ -16,7 +15,7 @@ How does the price change with changes in Source and Destination?
 
 How does the ticket price vary between Economy and Business class?
 
-Data Collection and Methodology
+## Data Collection and Methodology
 
 Data was extracted from the Ease My Trip website using the Octoparse scraping tool. The data was collected in two parts: one for economy class tickets and another for business class tickets, over 50 days (from February 11th to March 31st, 2022). The dataset consists of 300,261 distinct flight booking options.
 
