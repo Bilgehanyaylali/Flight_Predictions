@@ -1,0 +1,7 @@
+1) numpy
+2) pandas 
+3) seaborn 
+4) datetime 
+5) matplotlib
+6) sklearn
+7) lightgbm
